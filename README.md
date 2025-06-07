@@ -24,7 +24,9 @@ Este repositorio contiene una recopilación de ejercicios prácticos de la cáte
    git clone https://github.com/juanjose27capu/Estructuras-Datos-Algoritmos.git
 
 2️⃣ Explora las diferentes carpetas y revisa los enunciados en los PDFs.
+
 3️⃣ Accede a cada carpeta para ver las implementaciones en Python.
+
 4️⃣ Prueba y modifica los códigos para comprender mejor las estructuras y algoritmos
 
 ## 🌍 Contribuciones y mejoras

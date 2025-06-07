@@ -20,7 +20,7 @@ Este repositorio contiene una recopilación de ejercicios prácticos de la cáte
 
 ## 📂 **Cómo usar los archivos**  
 1️⃣ Descarga o clona el repositorio con:  
-   ```bash
+
    git clone https://github.com/juanjose27capu/Estructuras-Datos-Algoritmos.git
 
 2️⃣ Explora las diferentes carpetas y revisa los enunciados en los PDFs.

@@ -1,0 +1,49 @@
+class nodo:
+    __dato:int
+    __sig:int
+    
+    def __init__(self,dato):
+        self.__dato=dato
+        self.__sig=None
+    def getDato(self):
+        return self.__dato
+    def getSiguiente(self):
+        return self.__sig
+    def setSiguiente(self,siguiente):
+        self.__sig=siguiente
+    def setDato(self,dato):
+        self.__dato=dato
+        
+class pila:
+    
+    __tope:nodo
+    __cant:int
+    
+    def __init__(self):
+        self.__tope=None
+        self.__cant=0
+    def vacia(self):
+        return self.__cant==0
+    def insertar(self,elemento):
+        nuevo=nodo(elemento)
+        nuevo.setSiguiente(self.__tope)
+        self.__tope=nuevo
+        self.__cant+=1
+    def suprimir(self):
+        if not self.vacia():
+            self.__tope=self.__tope.getSiguiente()
+            self.__cant-=1
+            print("El último elemento insertado en la pila ha sido eliminado correctamente")
+        else:
+            print("Error: La Pila está vacía")
+    def recorrer(self):
+        if self.vacia():
+            print("Pila Vacía")
+        else:
+            aux=self.__tope
+            while aux!=None:
+                print(aux.getDato())
+                aux=aux.getSiguiente()
+
+        
+    
